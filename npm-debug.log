@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'ntwitter' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'ntwitter', null ]
+5 verbose cache add name=undefined spec="ntwitter" args=["ntwitter",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ntwitter',
+6 verbose parsed url   path: 'ntwitter',
+6 verbose parsed url   href: 'ntwitter' }
+7 silly lockFile 2bfbd1a3-ntwitter ntwitter
+8 verbose lock ntwitter /Users/aadisriram/.npm/2bfbd1a3-ntwitter.lock
+9 silly lockFile 2bfbd1a3-ntwitter ntwitter
+10 silly lockFile 2bfbd1a3-ntwitter ntwitter
+11 verbose addNamed [ 'ntwitter', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f01a5877-ntwitter ntwitter@
+14 verbose lock ntwitter@ /Users/aadisriram/.npm/f01a5877-ntwitter.lock
+15 silly addNameRange { name: 'ntwitter', range: '*', hasData: false }
+16 verbose request where is /ntwitter
+17 verbose request registry http://registry.npmjs.org/
+18 verbose request id 3795abf0b05f2712
+19 verbose url raw /ntwitter
+20 verbose url resolving [ 'http://registry.npmjs.org/', './ntwitter' ]
+21 verbose url resolved http://registry.npmjs.org/ntwitter
+22 verbose request where is http://registry.npmjs.org/ntwitter
+23 info trying registry request attempt 1 at 11:02:57
+24 verbose etag "6NV0SSZR58PYMCQMDDDZT1CSJ"
+25 http GET http://registry.npmjs.org/ntwitter
+26 http 200 http://registry.npmjs.org/ntwitter
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"72A9ER4UPG1GIR4N0YBC32Z4J"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '27639',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Thu, 02 Apr 2015 15:02:56 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-atl6234-ATL',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1427986976.185370,VS0,VE80',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'ntwitter', range: '*', hasData: true }
+29 silly addNameRange versions [ 'ntwitter',
+29 silly addNameRange   [ '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.2-1',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.4-1',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.6-1',
+29 silly addNameRange     '0.2.7',
+29 silly addNameRange     '0.2.7-1',
+29 silly addNameRange     '0.2.7-2',
+29 silly addNameRange     '0.2.8',
+29 silly addNameRange     '0.2.9',
+29 silly addNameRange     '0.2.9-2',
+29 silly addNameRange     '0.2.10',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0' ] ]
+30 verbose addNamed [ 'ntwitter', '0.5.0' ]
+31 verbose addNamed [ '0.5.0', '0.5.0' ]
+32 silly lockFile e3570b8e-ntwitter-0-5-0 ntwitter@0.5.0
+33 verbose lock ntwitter@0.5.0 /Users/aadisriram/.npm/e3570b8e-ntwitter-0-5-0.lock
+34 warn deprecated ntwitter@0.5.0: Unmaintained
+35 silly lockFile e3570b8e-ntwitter-0-5-0 ntwitter@0.5.0
+36 silly lockFile e3570b8e-ntwitter-0-5-0 ntwitter@0.5.0
+37 silly lockFile f01a5877-ntwitter ntwitter@
+38 silly lockFile f01a5877-ntwitter ntwitter@
+39 silly resolved [ { name: 'ntwitter',
+39 silly resolved     version: '0.5.0',
+39 silly resolved     description: 'Asynchronous Twitter REST/stream/search client API for node.js.',
+39 silly resolved     keywords: [ 'twitter', 'streaming', 'oauth' ],
+39 silly resolved     homepage: 'https://github.com/AvianFlu/ntwitter',
+39 silly resolved     author: { name: 'jdub, changes by AvianFlu' },
+39 silly resolved     licenses:
+39 silly resolved      { type: 'MIT',
+39 silly resolved        url: 'http://github.com/AvianFlu/ntwitter/raw/master/LICENSE' },
+39 silly resolved     repository: { type: 'git', url: 'http://github.com/AvianFlu/ntwitter.git' },
+39 silly resolved     dependencies: { oauth: '>=0.8.4', cookies: '0.1.x', keygrip: '0.2.x' },
+39 silly resolved     devDependencies: { should: '*', mocha: '*' },
+39 silly resolved     engines: { node: '>=0.4.0' },
+39 silly resolved     main: './lib/twitter',
+39 silly resolved     _id: 'ntwitter@0.5.0',
+39 silly resolved     dist:
+39 silly resolved      { shasum: '30c40105f82432fa8956a4f7655de932af631534',
+39 silly resolved        tarball: 'http://registry.npmjs.org/ntwitter/-/ntwitter-0.5.0.tgz' },
+39 silly resolved     _npmVersion: '1.1.59',
+39 silly resolved     _npmUser: { name: 'avianflu', email: 'charlie@charlieistheman.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     deprecated: 'Unmaintained',
+39 silly resolved     directories: {},
+39 silly resolved     _shasum: '30c40105f82432fa8956a4f7655de932af631534',
+39 silly resolved     _from: 'ntwitter@',
+39 silly resolved     _resolved: 'http://registry.npmjs.org/ntwitter/-/ntwitter-0.5.0.tgz',
+39 silly resolved     bugs: { url: 'https://github.com/AvianFlu/ntwitter/issues' },
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install ntwitter@0.5.0 into /usr/local/lib
+41 info installOne ntwitter@0.5.0
+42 verbose lib/node_modules/ntwitter unbuild
+43 verbose tar unpack /Users/aadisriram/.npm/ntwitter/0.5.0/package.tgz
+44 silly lockFile 80a99813--local-lib-node-modules-ntwitter tar:///usr/local/lib/node_modules/ntwitter
+45 verbose lock tar:///usr/local/lib/node_modules/ntwitter /Users/aadisriram/.npm/80a99813--local-lib-node-modules-ntwitter.lock
+46 silly lockFile ff57891b-m-npm-ntwitter-0-5-0-package-tgz tar:///Users/aadisriram/.npm/ntwitter/0.5.0/package.tgz
+47 verbose lock tar:///Users/aadisriram/.npm/ntwitter/0.5.0/package.tgz /Users/aadisriram/.npm/ff57891b-m-npm-ntwitter-0-5-0-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/ntwitter'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/ntwitter']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/ntwitter',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/ntwitter',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.1.0
+52 error command "node" "/usr/local/bin/npm" "install" "-g" "ntwitter"
+53 error cwd /Users/aadisriram/WebstormProjects/TwitterTrendingTags
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/ntwitter
+57 error fstream_path /usr/local/lib/node_modules/ntwitter
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/ntwitter'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]

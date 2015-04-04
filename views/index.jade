@@ -1,0 +1,9 @@
+extends layout
+block content
+    h1= title
+    button.col-md-12#trend(class="btn btn-primary").
+        Refresh Trending Hashtags
+    div#trendingcontainer
+        div.col-md-6#trending
+            h3 Trending Hashtags on Twitter
+            ul#trending-list.list-group
